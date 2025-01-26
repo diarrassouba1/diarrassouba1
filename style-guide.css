@@ -1,0 +1,91 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.attribution{
+   padding: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+   right:-100%;
+}
+
+h1{
+    font-size: 2rem;
+    color: darkgrey;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size:1.5rem ;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.détail{
+    max-width: 680px;
+    margin: 0 auto 40px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.grid{
+    display: grid;
+    background-color: #f9f9f9;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) ;
+    padding: 20px;
+    text-align: left;
+    position:relative;
+    width: 300px;
+    height: 200px;
+    bottom: 10px;
+}
+
+.item img{
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+}
+.item p{
+    font-size: 0.9em;
+}
+
+.supervisor{
+    border-top: 5px solid #28c4d9;
+    bottom:-150px;
+    left: 50%; 
+}
+
+.team-builder{
+    border-top: 5px solid #ea4c89;
+    right:-50%;
+}
+
+.karma{
+    border-top: 5px solid #f9c74f;
+    bottom: -260px;
+    left: -55%;
+}
+
+.calculator{
+    border-top:5px solid #5476f5;
+    bottom: -150px;
+    left: -55%;
+}
+
